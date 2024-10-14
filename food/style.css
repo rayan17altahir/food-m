@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+
+
+
+}
+body{
+ font-family: quicksand, sans-serif;
+
+
+
+}
+ul{
+
+  list-style: none;
+
+}
+a{
+
+
+     text-decoration: none;
+}
+/*utility classes*/
+.primary-text{
+
+  color: #ff8a04;
+}
+/*header start*/
+header{
+    height: 100vh;
+}
+#navbar{
+
+   display: flex;
+   justify-content:  space-between;
+  align-items: center;
+ background-color: red;
+}
+
+#navber img {
+    width:  80px;
+  margin-left: 100px;
+
+
+
+}
+#navbar ul {
+
+ display: flex;
+ margin-right: 100px;
+
+}
+#navbar ul li a {
+padding: 15px 20px ;
+color: aliceblue;
+font-weight: 300;
+
+
+
+
+}
+#navbar ul li a :hover{
+
+
+
+    border-bottom: 2px solid #ff8a04;
+}
+.header.content{
+    display: flex;
+    flex-direction:columnl;
+    justify-content: center;
+    align-items: center;
+
+    height: 75%;
+
+
+
+
+
+}
+.header.content h1{
+
+font-size: 40px;
+
+
+}
+.header.content p{
+margin: 20px 0 40px ;
+
+
+}
+
+
+
+
+
+
+
+
+
+/*header end*/
